@@ -1,1 +1,129 @@
+/*---Body---*/
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+}
 
+/*---Header Elements---*/
+div.header {
+    background-image: url("img/headerimage2.jpg");
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+h1.header {
+    padding: 20px;
+    color: white;
+    margin: 0px;
+}
+
+/*---Nav Bar Elements---*/
+div.nav {
+    float: left;
+    width: 100px;
+    min-height: 0px;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    /*width: inherit;*/
+}
+
+li a, li.menu {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+/*    color: white;
+    background-color: #555555;*/
+    color: #555555;
+    background-color: rgb(250, 250, 250);
+}
+
+li.menu {
+    user-select: none;
+}
+
+li a:hover, li.menu:hover {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    cursor: pointer;
+}
+
+li a.submenu {
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    width: 80px;
+    color: #555555;
+    background-color: rgb(220, 220, 220);
+}
+
+li a.submenu:hover {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+/*---Social Media Icons---*/
+div.socialicons {
+    position: center;
+    text-align: center;
+}
+
+/*---Article/Main Body Elements---*/
+div.article {
+    margin-left: 100px;
+    background-color: rgb(250, 250, 250);
+    padding: 15px;
+    border-left-color: #bbbbbb;
+    border-left-width: 1px;
+    border-left-style: solid;
+    display: block;
+}
+
+h1.article {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+hr.article {
+    max-width: 800px;
+    margin-left: 0;
+}
+
+div.articleimg {
+    margin: 0;
+    padding: 0;
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img.article {
+    max-width: 600px;
+    width: 100%;
+}
+
+p {
+    max-width: 800px;
+}
+
+/*---Footer---*/
+div.footer {
+    background-color: #bbbbbb;
+    padding: 20vh 15px 15px 15px;
+    margin: 0;
+    display: block;
+}
+
+div.footer p {
+    margin-top: 15px;
+}
